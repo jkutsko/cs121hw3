@@ -19,6 +19,7 @@
 		AC071DD219C11230000A85C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC071DBA19C1122F000A85C6 /* UIKit.framework */; };
 		AC071DDA19C11230000A85C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC071DD819C11230000A85C6 /* InfoPlist.strings */; };
 		AC071DDC19C11230000A85C6 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC071DDB19C11230000A85C6 /* ViewTestTests.m */; };
+		ACE56EC519C11A30000FB002 /* JKSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE56EC419C11A30000FB002 /* JKSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		AC071DD719C11230000A85C6 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		AC071DD919C11230000A85C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC071DDB19C11230000A85C6 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		ACE56EC319C11A30000FB002 /* JKSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKSimpleView.h; sourceTree = "<group>"; };
+		ACE56EC419C11A30000FB002 /* JKSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				AC071DC519C1122F000A85C6 /* JKAppDelegate.h */,
 				AC071DC619C1122F000A85C6 /* JKAppDelegate.m */,
+				ACE56EC319C11A30000FB002 /* JKSimpleView.h */,
+				ACE56EC419C11A30000FB002 /* JKSimpleView.m */,
 				AC071DC819C11230000A85C6 /* Images.xcassets */,
 				AC071DBD19C1122F000A85C6 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE56EC519C11A30000FB002 /* JKSimpleView.m in Sources */,
 				AC071DC319C1122F000A85C6 /* main.m in Sources */,
 				AC071DC719C1122F000A85C6 /* JKAppDelegate.m in Sources */,
 			);
@@ -440,6 +446,7 @@
 				AC071DE119C11230000A85C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC071DE219C11230000A85C6 /* Build configuration list for PBXNativeTarget "ViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +455,7 @@
 				AC071DE419C11230000A85C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
